@@ -1,0 +1,37 @@
+body {
+  font-size: 16px;
+}
+.controls {
+  display: flex;
+  &__item {
+    margin: 0 1px;
+    padding: 10px 10px;
+    border: 2px solid #3dad598c;
+    color: black;
+    font-weight: 700;
+    text-decoration: none;
+    &--active {
+      background-color: blueviolet;
+      color: white;
+    }
+  }
+}
+.pane {
+  display: none;
+  padding: 15px;
+
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
+.pane--active {
+  display: block;
+}
+.pane__fruit {
+  margin-top: 0;
+  margin-bottom: 16px;
+  font-size: 48px;
+}
+
+.pane__text {
+  margin-bottom: 0;
+}
