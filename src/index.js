@@ -1,2 +1,2 @@
 import "./sass/styles.scss";
-import "./js/pane-switcher";
+import "./js/tabs-plagin";
